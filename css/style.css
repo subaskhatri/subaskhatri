@@ -1,0 +1,106 @@
+/*change background color and text style*/
+ body{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  background-color: #CEDBF5;
+}
+/* setting the space between container and applying overflow hidden*/
+.container{
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
+
+}
+/* changing background color of the header and adjusting size of the text and color*/
+header{
+  background: #070645;
+  color: #D05B3C;
+  padding-top: 50px;
+  min-height: 80px;
+  border-bottom: #BF9010 3px solid;
+}
+header a{
+  color: #D05B3C;
+  text-transform: uppercase;
+  font-size: 17px;
+  text-decoration: none;
+}
+header ul{
+  margin: 0;
+  padding: 0;
+}
+header li{
+  float: left;
+  display: inline-block;
+  padding: 5px 20px;
+  border: 1px solid #ffffff
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+/*it helps to make menu bar white whenever we put our mouse cursor over there*/
+header a:hover{
+  color: #cccccc;
+  font-size: bold;
+}
+/* making current page menu bold and color green*/
+header .current a{
+  color: #19A908;
+  font-weight: bold;
+}
+/* changing the showcase backgroundimage and setting text size and color */
+#showcase{
+min-height: 400px;
+  background:url(../image/w.jpg) no-repeat 0 -150px;
+  text-align: center;
+  color: #9A7D0A
+}
+#showcase h1{
+  margin-top: 60px;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 10px;
+}
+/* setting boxes postion size */
+#boxes {
+  margin-top: 20px;
+}
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#boxes .box img{
+  width: 200px;
+}
+#newsletter {
+  padding: 0;
+  color: #ffffff;
+  background: #641E16;
+}
+#newsletter h1{
+  float: left;
+}
+#newsletter form {
+  float: right;
+  margin-top: 20px;
+}
+/* editing the footer of home page */
+footer {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="HAVE YOUR OWN PHOTOGRAPHER">
+    <meta name"keywords" content="appoint photographer, photographer">
+    <title>Sujan-Basnet CV \ Welcome </title>
+    <link rel="stylesheet" href="css/Contact.css">
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+        <h1>CONTACT US </h1>
+      </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+              <li><a href="CV.html">CV</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                  <li><a href="Research.html">Research</a></li>
+                    <li class="current"><a href="Contact.html">Contact</a></li>
+
+          </ul>
+        </nav
+     </div>
+   </header>
+<section id="showcase">
+   <div class="Contact">
+       <marquee>
+         <h1>Please fill your details here</h1>
+         </marquee>
+     </div>
+   </section>
+<section id="showcase">
+  <div class="wrapper">
+    <form onsubmit="validateForm()" name="messageForm">
+      Name:<br>
+      <input type="text" name="Name"><br>
+      Phone:<br>
+      <input type="text" name="Phone"><br>
+      Email:<br>
+      <input type="text" name="Email"><br>
+      Comment:<br>
+      <input type="text" name="Comment"><br>
+      <br>
+      <button type="Enter" name="button_1"><h1>Submit</h1></button>
+    </form>
+  </div>
+</section>
+<script type="text/javascript">
+  function validateForm() {
+    var Name = document.forms["messageForm"]["Name"].value;
+      var Phone = document.forms["messageForm"]["Phone"].value;
+        var Email = document.forms["messageForm"]["Email"].value;
+          var Comment = document.forms["messageForm"]["Comment"].value;
+
+          if (Name =="" ||Phone =="" ||Email =="" ||Comment =="") {
+            alert("First fill all the table");
+          }else{
+            alert("Thank you we will contact you soon"+ Name);
+            alert("your details: "+
+          "Name: "+Name+" "+
+           "Phone: "+Phone+" "+
+             "Email: "+Email+" "+
+                "Comment: "+Comment);
+          }
+
+  }
+</script>
+<section>
+  <div class="sujan">
+    <footer>
+<p>Life and Photography,copyright@2020</p>
+    </footer>
+  </div>
+</section>
+
+
+      </body>
+   </html>
